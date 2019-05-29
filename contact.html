@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<title>
+  			Contact Mid term
+  		</title>
+<!--Meta-->
+  		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Bootstrap-->
+  		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<!--Icons-->
+  		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--Normalize-->
+     	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+<!--Style-->
+    	<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
+		<header>
+<!--Navigation Bar-->
+			<nav>
+				<div class="toggle">
+					<i class="fa fa-bars menu" aria-hidden="true">
+					</i>
+				</div>
+				<ul>
+					<li class="home">
+						<a href="index.html">Home</a>
+					</li>
+					<li class="portfolio">
+						<a href="portfolio.html">Portfolio</a>
+					</li>
+					<li class="experience">
+						<a href="experience.html">Experince</a>
+					</li>
+					<li class="contact">
+						<a href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<section>
+<!--Contact Information-->
+			<div class="container">
+<!--Profile Image-->
+				<div class="row">
+					<div class="mx-auto" style="width: 250px;">
+						<img src="images/miguel.jpg" class="rounded-circle mx-auto d-block" alt="profile image">
+					</div>				
+				</div>	
+				<div class="row">
+					<br>
+				</div>
+<!--Inoformation-->
+				<div class="row">
+<!--Short Biography-->
+					<div class="col-sm-6">
+						<h2 class="text-justify">
+							Bio.
+						</h2>
+						<p class="text-justify">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed rhoncus erat. Nam malesuada pulvinar tincidunt. Morbi ac mi faucibus, accumsan orci eget, hendrerit ligula. Phasellus dictum risus nec vestibulum auctor. Donec placerat ligula id lectus pharetra commodo. Nullam lacinia sem tellus, sed ornare dolor semper eu. Curabitur mattis enim id accumsan suscipit. Nulla sit amet fermentum odio. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque ante lacus, cursus sit amet consectetur eget, feugiat quis enim. Phasellus sagittis nunc non tempus congue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed et nibh interdum, placerat lorem id, tempor massa. Praesent imperdiet sed tortor at aliquam. Nunc a neque vestibulum, egestas lectus at, blandit nunc. Integer feugiat arcu magna, vel ornare mi interdum venenatis.
+						</p>					
+					</div>
+<!--Email Form-->
+					<div class="col-sm-6">
+						<h2 class="text-justify">
+							Email
+						</h2>
+						<form>
+							<div class="form-group">
+							    <label for="formControlInput1">
+							    	Email address
+							    </label>
+							    <input type="email" class="form-control" id="formControlInput1" placeholder="name@example.com">
+							</div>
+						  	<div class="form-group">
+						    	<label for="formControlSelect1">
+						    		Subject
+						    	</label>
+						    	<select class="form-control" id="formControlSelect1">
+							    	<option>3D animation quote</option>
+							      	<option>Motion graphics video quote</option>
+							      	<option>Web development quote</option>
+							      	<option>Other</option>
+							    </select>
+						  	</div>
+						  	<div class="form-group">
+						  		<label for="exampleFormControlFile1">
+						  			Attach MEdia
+						  		</label>
+	    						<input type="file" class="form-control-file" id="exampleFormControlFile1">
+	  						</div>
+						  	<div class="form-group">
+						  		<label for="exampleFormControlTextarea1">
+						    		comments
+						    	</label>
+						    	<textarea class="form-control" id="comments" rows="3">
+						    	</textarea>
+						  	</div>
+						  	<button type="submit" class="contact">
+								Send
+							</button>
+						</form>					
+					</div>
+				</div>
+			</div>		
+		</section>
+<!--Footer-->
+		<footer>
+			copyright &copy; 2019 Llagmanty
+		</footer>
+<!--Jquery Scripts-->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+      </script>
+<!--NavBar Responsive Script-->
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.menu').click(function(){
+					$('ul').toggleClass('active');
+					})
+				})
+		</script>
+<!--Bootstrap Scripts-->
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+      </script>
+	</body>
+</html>

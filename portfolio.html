@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<title>
+  			Portfolio Mid term
+  		</title>
+<!--Meta-->
+  		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Normalize-->
+     	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+<!--Bootstrap-->
+  		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<!--Icons-->
+  		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--Style-->
+    	<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
+		<header>
+<!--Navigation Bar-->
+			<nav>
+				<div class="toggle">
+					<i class="fa fa-bars menu" aria-hidden="true">
+					</i>
+				</div>
+				<ul>
+					<li class="home">
+						<a href="index.html">Home</a>
+					</li>
+					<li class="portfolio">
+						<a href="portfolio.html">Portfolio</a>
+					</li>
+					<li class="experience">
+						<a href="experience.html">Experince</a>
+					</li>
+					<li class="contact">
+						<a href="contact.html">Contact</a>
+					</li>
+				</ul>
+				<ul >
+					<li class="sub-portfolio">
+						<a href="portfolio/3d.html">3D</a>
+					</li>
+					<li class="sub-portfolio">
+						<a href="portfolio/video.html">Video Production</a>
+					</li>
+					<li class="sub-portfolio">
+						<a href="portfolio/web.html">Web Develop</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<section>
+<!--Categorie Cards-->
+			<div class="container">
+				<div class="row">
+<!--category #1-->
+					<div class="col-sm-4">
+					  	<img src="./images/homemodel.jpg" class="card-img-top" alt="3d model #1">
+	  					<div class="card-body">
+	    					<h5 class="card-title">
+	    						3D Model #1
+	    					</h5>
+	    					<p class="card-text">
+	    						Ut consequat vulputate mi et aliquet. Aliquam tempor lectus sit amet volutpat posuere.
+	    					</p>
+	    					<a href="portfolio/3d.html">
+	    						<p class="card-text">
+	    							<small class="text-muted">
+	    								Go and see it!
+	    							</small>
+	    						</p>
+	    					</a>
+	  					</div>
+					</div>
+<!--category #2-->
+					<div class="col-sm-4">
+					  	<img src="./images/homevideo.jpg" class="card-img-top" alt="video production #1">
+	  					<div class="card-body">
+	    					<h5 class="card-title">
+	    						video #1
+	    					</h5>
+	    					<p class="card-text">
+	    						Ut consequat vulputate mi et aliquet. Aliquam tempor lectus sit amet volutpat posuere.
+	    					</p>
+	    					<a href="portfolio/video.html">
+	    						<p class="card-text">
+	    							<small class="text-muted">
+	    								Go and see it!
+	    							</small>
+	    						</p>
+	    					</a>
+	  					</div>
+					</div>
+<!--Category #3-->
+					<div class="col-sm-4">
+					  	<img src="./images/homeweb.jpg" class="card-img-top" alt="web development #1">
+	  					<div class="card-body">
+	    					<h5 class="card-title">
+	    						Web Deb #1
+	    					</h5>
+	    					<p class="card-text">
+	    						Ut consequat vulputate mi et aliquet. Aliquam tempor lectus sit amet volutpat posuere.
+	    					</p>
+	    					<a href="portfolio/web.html">
+	    						<p class="card-text">
+	    							<small class="text-muted">
+	    								Go and see it!
+	    							</small>
+	    						</p>
+	    					</a>
+	  					</div>
+					</div>
+				</div>
+			</div>			
+		</section>
+<!--Footer-->
+		<footer>
+			copyright &copy; 2019 Llagmanty
+		</footer>
+<!--Jquery Scripts-->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+      </script>
+<!--NavBar Responsive Script-->
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.menu').click(function(){
+					$('ul').toggleClass('active');
+					})
+				})
+		</script>
+<!--Bootstrap Scripts-->
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+      </script>
+	</body>
+</html>
